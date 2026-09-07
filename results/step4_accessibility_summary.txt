@@ -1,0 +1,14 @@
+P05 Urban Accessibility — Step 4 Network Accessibility
+=========================================================
+
+network_nodes_total: 55750.0
+network_nodes_reachable: 55750.0
+pharmacy_features: 62.0
+unique_pharmacy_nodes: 61.0
+mean_nearest_pharmacy_m: 819.36
+median_nearest_pharmacy_m: 649.64
+p90_nearest_pharmacy_m: 1476.81
+max_nearest_pharmacy_m: 9788.85
+nodes_within_500m_pct: 35.78
+nodes_within_1000m_pct: 76.25
+nodes_within_1500m_pct: 90.3
