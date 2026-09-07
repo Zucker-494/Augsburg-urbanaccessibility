@@ -1,0 +1,18 @@
+P05 Urban Accessibility — Step 2 Data Check
+================================================
+
+Pedestrian-network nodes: 55,750
+Pedestrian-network edges: 139,362
+Pharmacy features: 62
+
+Nodes CRS: EPSG:4326
+Edges CRS: EPSG:4326
+Pharmacies CRS: EPSG:4326
+
+Network bounds: [10.7649455, 48.2582815, 10.9573535, 48.4575947]
+Pharmacy bounds: [10.8532224, 48.2971966, 10.9455391, 48.3991794]
+
+Geometry types:
+  Nodes: {'Point': 55750}
+  Edges: {'LineString': 139362}
+  Pharmacies: {'Point': 62}
