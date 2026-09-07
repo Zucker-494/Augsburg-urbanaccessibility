@@ -99,7 +99,7 @@ snap_p.plot(ax=ax, markersize=10, label="Nearest network node")
 for p1, p2 in zip(orig_p.geometry, snap_p.geometry):
     ax.plot([p1.x, p2.x], [p1.y, p2.y], linewidth=0.6, alpha=0.6)
 
-ax.set_title("Step 3 — Pharmacy POIs Snapped to Pedestrian Network", fontsize=14)
+ax.set_title("Pharmacy POIs Snapped to Pedestrian Network", fontsize=14)
 ax.set_axis_off()
 ax.legend()
 fig.tight_layout()
