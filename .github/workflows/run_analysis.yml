@@ -3,6 +3,9 @@ name: Run P05 Accessibility Analysis
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   accessibility:
     runs-on: ubuntu-latest
@@ -29,8 +32,33 @@ jobs:
         run: |
           python src/02_check_data.py
 
+      - name: Snap pharmacies to pedestrian network
+        run: |
+          python src/03_snap_pharmacies.py
+
+      - name: Copy lightweight Step 2 results
+        run: |
+          mkdir -p results
+          cp outputs/data_summary.csv results/step2_data_summary.csv
+          cp outputs/data_summary.txt results/step2_data_summary.txt
+          cp outputs/step2_data_preview.png results/step2_data_preview.png
+
+      - name: Commit lightweight results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/
+          if git diff --cached --quiet; then
+            echo "No result changes to commit."
+          else
+            git commit -m "Update P05 analysis results"
+            git push
+          fi
+
       - name: Upload generated outputs
         uses: actions/upload-artifact@v4
         with:
-          name: p05-step2-data-check
-          path: outputs/
+          name: p05-step3-full-output
+          path: |
+            outputs/
+            results/
