@@ -1,0 +1,12 @@
+# Generated GIS outputs
+outputs/*.gpkg
+outputs/*.geojson
+outputs/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS/editor
+.DS_Store
+Thumbs.db
