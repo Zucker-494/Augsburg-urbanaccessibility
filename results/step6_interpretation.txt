@@ -1,0 +1,7 @@
+P05 Urban Accessibility — Step 6 Interpretation
+==================================================
+
+76.24% of pedestrian-network nodes are within 1000 m network distance of a pharmacy.
+9.70% of pedestrian-network nodes fall beyond the 1500 m screening threshold used to identify potential accessibility gaps.
+The mapped pattern shows that low-accessibility nodes are concentrated mainly at the urban periphery and network edges, while the inner urban area generally exhibits shorter walking-network distances to pharmacies.
+These results describe network-based spatial accessibility rather than population accessibility, because the analysis is based on pedestrian-network nodes rather than residential population or demand-weighted locations.
