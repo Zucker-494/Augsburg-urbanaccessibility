@@ -1,0 +1,4 @@
+layer,feature_count,crs,geometry_types
+pedestrian_nodes,55750,EPSG:4326,{'Point': 55750}
+pedestrian_edges,139362,EPSG:4326,{'LineString': 139362}
+pharmacies,62,EPSG:4326,{'Point': 62}

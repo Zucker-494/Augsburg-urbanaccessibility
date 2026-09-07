@@ -1,0 +1,8 @@
+P05 Urban Accessibility — Step 3 Network Snapping
+====================================================
+
+pharmacy_count: 62.0
+unique_nearest_nodes: 61.0
+mean_snap_distance_m: 13.2
+median_snap_distance_m: 12.58
+max_snap_distance_m: 30.06
