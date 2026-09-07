@@ -43,6 +43,9 @@ jobs:
           cp outputs/data_summary.txt results/step2_data_summary.txt
           cp outputs/step2_data_preview.png results/step2_data_preview.png
 
+      - name: Identify accessibility gaps
+        run: python src/05_accessibility_gaps.py
+
       - name: Commit lightweight results
         run: |
           git config user.name "github-actions[bot]"
@@ -58,7 +61,7 @@ jobs:
       - name: Upload generated outputs
         uses: actions/upload-artifact@v4
         with:
-          name: p05-step4-full-output
+          name: p05-step5-full-output
           path: |
             outputs/
             results/
