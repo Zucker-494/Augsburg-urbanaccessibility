@@ -1,0 +1,17 @@
+P05 Urban Accessibility — Step 5 Accessibility Gaps
+=========================================================
+
+Operational definition:
+Potential accessibility gap = pedestrian-network node more than 1500 m
+from the nearest pharmacy along the walking network.
+
+≤ 500 m: 19950 nodes (35.78%)
+500–1000 m: 22559 nodes (40.46%)
+1000–1500 m: 7835 nodes (14.05%)
+> 1500 m: 5406 nodes (9.70%)
+
+Potential gap nodes (>1500 m): 5406
+Potential gap share: 9.70%
+
+Interpretation note:
+The 1500 m threshold is used here as an operational screening threshold, not as a universal standard of adequate pharmacy access.
